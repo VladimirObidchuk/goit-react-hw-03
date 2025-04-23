@@ -1,9 +1,9 @@
-import css from "./Filter.module.css";
+import css from "./SearchBox.module.css";
 
 const Filter = ({ value, onFilter }) => {
   return (
     <div className={css.container}>
-      <p className={css}>Search by name</p>
+      <p className={css.text}>Search by name</p>
       <input
         type="text"
         value={value}
