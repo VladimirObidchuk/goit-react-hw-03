@@ -12,3 +12,6 @@
 .text {
   margin: 0;
 }
+.input {
+  padding: 5px 10px;
+}
